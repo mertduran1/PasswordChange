@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    typealias CustomValidation = PasswordTextField.CustomValidation /
+    typealias CustomValidation = PasswordTextField.CustomValidation
     
     let stackView = UIStackView()
     let passwordTextField = PasswordTextField(placeHolderText: "New Password")
